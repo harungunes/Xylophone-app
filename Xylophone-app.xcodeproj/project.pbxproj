@@ -12,6 +12,7 @@
 		BEB5D096257AF6F000F9EE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB5D095257AF6F000F9EE9B /* Assets.xcassets */; };
 		BEB5D099257AF6F000F9EE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB5D097257AF6F000F9EE9B /* LaunchScreen.storyboard */; };
 		BEB5D0A7257AF87B00F9EE9B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5D0A6257AF87B00F9EE9B /* MainViewController.swift */; };
+		BEB5D0B6257AFD7E00F9EE9B /* NotesStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5D0B5257AFD7E00F9EE9B /* NotesStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BEB5D098257AF6F000F9EE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEB5D09A257AF6F000F9EE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEB5D0A6257AF87B00F9EE9B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		BEB5D0B5257AFD7E00F9EE9B /* NotesStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		BEB5D08B257AF6EE00F9EE9B /* Xylophone-app */ = {
 			isa = PBXGroup;
 			children = (
+				BEB5D0B0257AFB1400F9EE9B /* View */,
 				BEB5D08C257AF6EE00F9EE9B /* AppDelegate.swift */,
 				BEB5D08E257AF6EE00F9EE9B /* SceneDelegate.swift */,
 				BEB5D095257AF6F000F9EE9B /* Assets.xcassets */,
@@ -70,6 +73,14 @@
 				BEB5D0A6257AF87B00F9EE9B /* MainViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEB5D0B0257AFB1400F9EE9B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEB5D0B5257AFD7E00F9EE9B /* NotesStackView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 				BEB5D0A7257AF87B00F9EE9B /* MainViewController.swift in Sources */,
 				BEB5D08D257AF6EE00F9EE9B /* AppDelegate.swift in Sources */,
 				BEB5D08F257AF6EE00F9EE9B /* SceneDelegate.swift in Sources */,
+				BEB5D0B6257AFD7E00F9EE9B /* NotesStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
