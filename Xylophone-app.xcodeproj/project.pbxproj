@@ -9,21 +9,19 @@
 /* Begin PBXBuildFile section */
 		BEB5D08D257AF6EE00F9EE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5D08C257AF6EE00F9EE9B /* AppDelegate.swift */; };
 		BEB5D08F257AF6EE00F9EE9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5D08E257AF6EE00F9EE9B /* SceneDelegate.swift */; };
-		BEB5D091257AF6EE00F9EE9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5D090257AF6EE00F9EE9B /* ViewController.swift */; };
-		BEB5D094257AF6EE00F9EE9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB5D092257AF6EE00F9EE9B /* Main.storyboard */; };
 		BEB5D096257AF6F000F9EE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB5D095257AF6F000F9EE9B /* Assets.xcassets */; };
 		BEB5D099257AF6F000F9EE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB5D097257AF6F000F9EE9B /* LaunchScreen.storyboard */; };
+		BEB5D0A7257AF87B00F9EE9B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5D0A6257AF87B00F9EE9B /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BEB5D089257AF6EE00F9EE9B /* Xylophone-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Xylophone-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB5D08C257AF6EE00F9EE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEB5D08E257AF6EE00F9EE9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BEB5D090257AF6EE00F9EE9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BEB5D093257AF6EE00F9EE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BEB5D095257AF6F000F9EE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEB5D098257AF6F000F9EE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEB5D09A257AF6F000F9EE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB5D0A6257AF87B00F9EE9B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +56,20 @@
 			children = (
 				BEB5D08C257AF6EE00F9EE9B /* AppDelegate.swift */,
 				BEB5D08E257AF6EE00F9EE9B /* SceneDelegate.swift */,
-				BEB5D090257AF6EE00F9EE9B /* ViewController.swift */,
-				BEB5D092257AF6EE00F9EE9B /* Main.storyboard */,
 				BEB5D095257AF6F000F9EE9B /* Assets.xcassets */,
 				BEB5D097257AF6F000F9EE9B /* LaunchScreen.storyboard */,
 				BEB5D09A257AF6F000F9EE9B /* Info.plist */,
+				BEB5D0A9257AF91D00F9EE9B /* Controller */,
 			);
 			path = "Xylophone-app";
+			sourceTree = "<group>";
+		};
+		BEB5D0A9257AF91D00F9EE9B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEB5D0A6257AF87B00F9EE9B /* MainViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +131,6 @@
 			files = (
 				BEB5D099257AF6F000F9EE9B /* LaunchScreen.storyboard in Resources */,
 				BEB5D096257AF6F000F9EE9B /* Assets.xcassets in Resources */,
-				BEB5D094257AF6EE00F9EE9B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEB5D091257AF6EE00F9EE9B /* ViewController.swift in Sources */,
+				BEB5D0A7257AF87B00F9EE9B /* MainViewController.swift in Sources */,
 				BEB5D08D257AF6EE00F9EE9B /* AppDelegate.swift in Sources */,
 				BEB5D08F257AF6EE00F9EE9B /* SceneDelegate.swift in Sources */,
 			);
@@ -146,14 +150,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BEB5D092257AF6EE00F9EE9B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEB5D093257AF6EE00F9EE9B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BEB5D097257AF6F000F9EE9B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
