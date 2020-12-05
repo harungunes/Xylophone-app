@@ -11,6 +11,7 @@ let screenView: UIImageView = {
   let view = UIImageView()
   view.translatesAutoresizingMaskIntoConstraints = false
   view.isUserInteractionEnabled = true
+  view.backgroundColor = .white
   
   return view
 }()

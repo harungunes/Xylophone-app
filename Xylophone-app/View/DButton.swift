@@ -24,7 +24,7 @@ class DButton {
   }
   
   @objc func playD() {
-    print("TEST D")
+    mainViewController.playSound(note: "D")
   }
   
   func setButtonD() {

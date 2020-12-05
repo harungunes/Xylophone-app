@@ -7,7 +7,10 @@
 
 import UIKit
 
+let mainViewController = MainViewController()
+
 class CButton {
+  
   let buttonC: UIButton = {
     let button = UIButton(type: .system)
     button.translatesAutoresizingMaskIntoConstraints = false
@@ -24,7 +27,7 @@ class CButton {
   }
   
   @objc func playC() {
-    print("TEST C")
+    mainViewController.playSound(note: "C")
   }
   
   func setButtonC() {
