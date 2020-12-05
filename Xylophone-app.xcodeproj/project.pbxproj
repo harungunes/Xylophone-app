@@ -15,6 +15,12 @@
 		BEB5D0A7257AF87B00F9EE9B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5D0A6257AF87B00F9EE9B /* MainViewController.swift */; };
 		BEB5D0B6257AFD7E00F9EE9B /* NotesStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB5D0B5257AFD7E00F9EE9B /* NotesStackView.swift */; };
 		BEBA4F5B257B180900650868 /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA4F5A257B180900650868 /* ScreenView.swift */; };
+		BEBA4F5E257B1CBC00650868 /* DButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA4F5D257B1CBC00650868 /* DButton.swift */; };
+		BEBA4F61257B1DA900650868 /* EButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA4F60257B1DA900650868 /* EButton.swift */; };
+		BEBA4F64257B1E6900650868 /* FButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA4F63257B1E6900650868 /* FButton.swift */; };
+		BEBA4F68257B1F6B00650868 /* GButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA4F67257B1F6B00650868 /* GButton.swift */; };
+		BEBA4F6B257B1FEC00650868 /* AButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA4F6A257B1FEC00650868 /* AButton.swift */; };
+		BEBA4F6E257B209C00650868 /* BButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBA4F6D257B209C00650868 /* BButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		BEB5D0A6257AF87B00F9EE9B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		BEB5D0B5257AFD7E00F9EE9B /* NotesStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesStackView.swift; sourceTree = "<group>"; };
 		BEBA4F5A257B180900650868 /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
+		BEBA4F5D257B1CBC00650868 /* DButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DButton.swift; sourceTree = "<group>"; };
+		BEBA4F60257B1DA900650868 /* EButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EButton.swift; sourceTree = "<group>"; };
+		BEBA4F63257B1E6900650868 /* FButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FButton.swift; sourceTree = "<group>"; };
+		BEBA4F67257B1F6B00650868 /* GButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GButton.swift; sourceTree = "<group>"; };
+		BEBA4F6A257B1FEC00650868 /* AButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AButton.swift; sourceTree = "<group>"; };
+		BEBA4F6D257B209C00650868 /* BButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +95,14 @@
 			isa = PBXGroup;
 			children = (
 				BEB5D0B5257AFD7E00F9EE9B /* NotesStackView.swift */,
-				BE57D8A0257B02FF00A80C1E /* CButton.swift */,
 				BEBA4F5A257B180900650868 /* ScreenView.swift */,
+				BE57D8A0257B02FF00A80C1E /* CButton.swift */,
+				BEBA4F5D257B1CBC00650868 /* DButton.swift */,
+				BEBA4F60257B1DA900650868 /* EButton.swift */,
+				BEBA4F63257B1E6900650868 /* FButton.swift */,
+				BEBA4F67257B1F6B00650868 /* GButton.swift */,
+				BEBA4F6A257B1FEC00650868 /* AButton.swift */,
+				BEBA4F6D257B209C00650868 /* BButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -158,11 +176,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEBA4F6B257B1FEC00650868 /* AButton.swift in Sources */,
 				BEBA4F5B257B180900650868 /* ScreenView.swift in Sources */,
+				BEBA4F61257B1DA900650868 /* EButton.swift in Sources */,
 				BEB5D0A7257AF87B00F9EE9B /* MainViewController.swift in Sources */,
+				BEBA4F68257B1F6B00650868 /* GButton.swift in Sources */,
+				BEBA4F5E257B1CBC00650868 /* DButton.swift in Sources */,
 				BEB5D08D257AF6EE00F9EE9B /* AppDelegate.swift in Sources */,
 				BE57D8A1257B02FF00A80C1E /* CButton.swift in Sources */,
 				BEB5D08F257AF6EE00F9EE9B /* SceneDelegate.swift in Sources */,
+				BEBA4F64257B1E6900650868 /* FButton.swift in Sources */,
+				BEBA4F6E257B209C00650868 /* BButton.swift in Sources */,
 				BEB5D0B6257AFD7E00F9EE9B /* NotesStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
