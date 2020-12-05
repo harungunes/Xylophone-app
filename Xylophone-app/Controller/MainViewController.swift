@@ -9,10 +9,21 @@ import UIKit
 
 class MainViewController: UIViewController {
   
+  
+  let cButton = CButton()
+  
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    view.backgroundColor = .yellow
+    view.backgroundColor = .white
+    setViewConstraints(for: view)
+    view.isUserInteractionEnabled = true
+    createStackView()
+    cButton.setButtonC()
+    
   }
+  
+ 
+  
 }
 
