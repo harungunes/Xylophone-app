@@ -9,25 +9,21 @@ import UIKit
 
 class MainViewController: UIViewController {
   
-  let notesStack = NotesStackView().createStackView()
+  
+  let cButton = CButton()
   
   override func viewDidLoad() {
     super.viewDidLoad()
     
     view.backgroundColor = .white
-    addNotesStack()
+    setViewConstraints(for: view)
+    view.isUserInteractionEnabled = true
+    createStackView()
+    cButton.setButtonC()
+    
   }
   
-  func addNotesStack() {
-    view.addSubview(notesStack)
-    
-    NSLayoutConstraint.activate([
-      notesStack.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
-      notesStack.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
-      notesStack.leadingAnchor.constraint(equalTo: view.leadingAnchor),
-      notesStack.trailingAnchor.constraint(equalTo: view.trailingAnchor)
-    ])
-  }
+ 
   
 }
 
